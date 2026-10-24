@@ -1,0 +1,33 @@
+## Visual Studio & Сборка C++
+/[Bb]in/
+/[Oo]bj/
+/[Dd]ebug/
+/[Rr]elease/
+/[Pp]ublish/
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+## Специфичные файлы Arduino и компилятора C++
+*.o
+*.a
+*.d
+*.elf
+*.hex
+*.bin
+*.eep
+*.lst
+*.map
+*.sym
+*.lss
+
+## Файлы кэша и сборки Visual Micro (если используется)
+.visualmicro/
+VM_DBG/
+MicroBuild/
+
+## Кэш CMake (если сборка настроена через него)
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
